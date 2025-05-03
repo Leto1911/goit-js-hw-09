@@ -56,4 +56,3 @@ inputs.forEach(input => {
     input.removeAttribute('placeholder');
   });
 });
-const flex = 5;
