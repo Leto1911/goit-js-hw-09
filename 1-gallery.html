@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .gallery {
+            list-style: none;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 48px 24px;
+            margin: 0 auto;
+            padding: 0;
+        }
+
+        .gallery-item {
+            width: calc((100% - 48px) / 3);
+        }
+
+        .gallery-image {
+            display: block;
+            width: 100%;
+            height: auto;
+        }
+    </style>
+  <script type="module" crossorigin src="/vanilla-app-template/1-gallery.js"></script>
+  <link rel="modulepreload" crossorigin href="/vanilla-app-template/assets/modulepreload-polyfill-B5Qt9EMX.js">
+  <link rel="modulepreload" crossorigin href="/vanilla-app-template/assets/vendor-CgTBfC_f.js">
+  <link rel="stylesheet" crossorigin href="/vanilla-app-template/assets/vendor-DkczhqSJ.css">
+</head>
+
+<body>
+    <ul class="gallery"></ul>
+</body>
+
+</html>
